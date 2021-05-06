@@ -1,0 +1,9 @@
+[Unit]
+Description="Watch video library for changes"
+
+[Path]
+PathChanged=$videodir
+Unit=auto-mp4.service
+
+[Install]
+WantedBy=multi-user.target
