@@ -1,0 +1,5 @@
+[Unit]
+Description="Run auto-mp4 script"
+
+[Service]
+ExecStart=/usr/local/bin/auto-mp4.sh
